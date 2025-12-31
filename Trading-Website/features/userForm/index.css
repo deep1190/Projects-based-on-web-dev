@@ -1,0 +1,36 @@
+.header {
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    margin-top: auto;
+  }
+  .button1 { 
+    background-color: white;
+    border: #333;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    float:left;
+    margin: 20px; 
+  }
+  .button1:hover {
+    background-color: #e5ba6a;
+    text-decoration: underline;
+  }
+  .nav-list{
+    list-style-type: none;
+  }
+  
+  .topHeading {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    background-color: solid#333;
+  }
+.button{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  color: black;
+  align-self:left;
+}  

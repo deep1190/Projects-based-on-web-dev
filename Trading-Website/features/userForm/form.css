@@ -1,0 +1,59 @@
+.form-container {
+  border: 1px solid #ddd;
+  background-color: #fff5e6; 
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.form-label {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #dba541; 
+  font-size: 24px; 
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  border: none; /* Updated to 'none' for better look */
+  border-radius: 4px;
+  background-color: #dcad55; /* Primary color */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;     
+  margin: 0 auto;
+}
+
+.submit-button:hover {
+  background-color: #c89e4f; /* Slightly darker shade of primary color for hover effect */
+}

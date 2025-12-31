@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .button1{
+    float:left
+  }
+  .container .echarts-for-react {
+    width: 100vw;
+    max-width: 1000px;
+    height: 400px;
+  }
+  
+  .title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ff6600;
+    text-transform: uppercase;
+  }
+  
+  .wrapper {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff5e6;
+  }
+  
+  .wrapper:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: scale(1.01);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .legend1{
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  .legend1::before {
+    content: '•';
+    margin-right: 5px;
+    font-size: 20px;
+    color: #ffcc99;}

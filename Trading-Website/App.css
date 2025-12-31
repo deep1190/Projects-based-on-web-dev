@@ -1,0 +1,51 @@
+.App-Table {
+  padding: 10px;
+}
+.heading2 {
+  color: black;
+  text-align: center;
+  font-size: x-large;
+  text-decoration: underline;
+}
+#head {
+  color: gray;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+.heading1 {
+  color: black;
+  background-color: rgb(231, 168, 53);}
+.button { 
+  background-color: rgb(231, 168, 53);
+  border: none;
+  width: auto;
+  height: auto;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  float: right;
+  margin: 20px;
+}
+.button:hover {
+  background-color: #e0a842;
+}
+.categoryFilter {
+  color: black;
+  padding: 8px;
+  font-size: 20px;
+  border: 1px solid #625454;
+  border-radius: 2px;
+  float: left;
+  margin: 10px;
+  }
+.categoryFilter:hover {
+  background-color: #eeca86;
+}

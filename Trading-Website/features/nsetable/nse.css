@@ -1,0 +1,25 @@
+.nse-table {
+    text-align: center;
+  }
+  .heading1 {
+    font-size: 2rem;
+  }
+  
+  .heading2 {
+    font-size: 1.5rem;
+  }
+  
+  .section-container {
+    margin-bottom: 20px; 
+    padding: 20px; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    background-color: #f9f9f9; 
+  }
+
+  body {
+    box-sizing: border-box;
+  }
+.gm-table{
+  text-align: center;
+}
